@@ -1,0 +1,130 @@
+.nav {
+    background-color: #79ac79;
+    padding: 10px;
+    text-align: right;
+    height: 30px;
+    align-items: left;
+    
+}
+
+.li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.img {
+    height: 30px; 
+    margin-left: 10px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.container {
+    display: grid;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding-left: 5px; 
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.pict {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link2 {
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+}
+
+ @keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    
+.slideInLeft {
+    animation: slideInLeft 1s ease-out; 
+}
+
+.btn-primary {
+    background-color: #79ac79;; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+.btn-primary:hover {
+    background-color: lightskyblue 
+}
+
+.dropdown {
+    appearance: none; /* Entfernt die Standard-Dropdown-Pfeile */
+    width: 100%; /* Breite auf 100% des Elternelements setzen */
+    padding: 10px; /* Innenabstand hinzufügen */
+    font-size: 16px; /* Schriftgröße festlegen */
+
+
+
+}
+
